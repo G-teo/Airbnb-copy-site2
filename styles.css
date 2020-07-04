@@ -1,0 +1,220 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6,a,p, div, img,span,dl,dt,dd{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  color: #444;
+}
+body a{
+  text-decoration: none;
+  color: #444;
+}
+body a:hover{
+  text-decoration: underline;
+}
+body ul{
+  list-style-type: none;
+}
+#header{
+  position: relative;
+  height: 900px;
+}
+#header-top{
+  display: flex;
+  color: #fff;
+}
+#header-left{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  z-index: 10;
+  font-size: 200%;
+}
+#header-right{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  z-index: 10;
+}
+#header-right #header-ul{
+  display: flex;
+}
+.header-li{
+  margin-left: 20px;
+}
+#hidden-header-top{
+  display: none;
+  z-index: 15;
+}
+#header-bottom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+#opening-movie{
+  object-fit: cover; 
+  width: 100%; 
+  height: 100%;
+}
+#video-btn {
+  content: "";
+  position: absolute;
+  bottom:5%;
+  right:2%;
+  width: 100px;
+  height: 50px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+#video-btn i{
+  margin-left: 10px;
+}
+.play{
+  display: none;
+  color: #fff;
+}
+.pause{
+  display: block;
+  color: #fff;
+}
+#header-box{
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  height: 40%;
+  width: 35%;
+  color: #fff;
+}
+#box-title h1{
+  font-size: 48px;
+}
+#box-link{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#header-box a{
+  /* font-size: 24px; */
+  color: #fff;
+}
+.mail-form{
+  padding: 20px 0;
+}
+.mail-form input{
+  width: 70%;
+  height: 50px;
+}
+.more{
+  font-weight: bold;
+}
+
+#main{
+  /* background-color: red; */
+}
+.index-section{
+  /* height: 500px; */
+  margin: 40px auto;
+  /* background-color: green; */
+  text-align: center;
+}
+.section2,.section3,.section4,.section6{
+  height: 700px;
+}
+.section5{
+  height: 350px;
+}
+.section7{
+  height: 400px;
+  padding: 40px 0px;
+}
+.section1 img{
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+}
+.half{
+  width: 100%;
+  height: 700px!important;
+  object-fit: cover;
+}
+.gray{
+  background-color: #ddd;
+  height: 100%;
+  /* width: 95%; */
+}
+.eme-green{
+  background-color: rgb(0, 128, 98);
+  height: 100%;
+}
+.explain{
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 250px;
+  text-align: left;
+}
+.syssup{
+  text-align: left;
+  height: 350px;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.main-bottom{
+  text-align: left;
+}
+.main-bottom p{
+  font-weight: bold;
+}
+#main-bottom-form{
+  padding: 20px 0;
+}
+#main-bottom-form input{
+  width: 100%;
+  height: 50px;
+}
+#main-bottom-link{
+  text-align: center;
+}
+#main-bottom-link p{
+  padding: 0;
+  margin-bottom: 0px;
+}
+#main-bottom-link .p2{
+  font-weight: normal;
+}
+#footer{
+  width: 90%;
+  margin:0 auto;
+}
+/* #footer-top, */
+#footer-bottom{
+  display: flex;
+  justify-content: space-around;
+}
+#footer-top{
+  border-bottom: 1px solid #999;
+}
+#footer-bottom{
+  margin-top: 10px;
+}
+#footer-top h1{
+  font-size: 14px;
+}
+.footer-list{
+  font-size: 14px;
+}
+#footer-tag a{
+  font-size: 14px;
+}
+#footer-logo span{
+  margin-left: 15px;
+}
