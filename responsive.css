@@ -51,12 +51,13 @@
   .section1{
     margin-top: 100px;
   }
+  .section2, .section3, .section4, .section5,.section6 {
+    height: 100%;
+    
+  }
   .index-section h1{
     font-size: 36px;
     color: #666;
-  }
-  .section5{
-    height: 100%;
   }
   .syssup{
     padding: 25px 0;
@@ -76,6 +77,16 @@
 @media screen and (max-width:768px){
   #header,#opening-movie{
     height: 500px;
+  }
+  #header-box{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    transform: translateY(-50%);
+    /* background-color: #fff; */
+    height: 40%;
+    width: 70%;
+    color: #fff;
   }
   #hidden-header-top{
     display: none;
@@ -108,6 +119,60 @@
     height: 350px!important;
   }
   .explain{
-    padding-top: 75px;
+    padding-top: 15px;
+  }
+}
+@media screen and (max-width:576px){
+  #header-video{
+    display: none;
+  }
+  #header-img{
+    display: block;
+    filter: brightness(50%);
+  }
+  #header-box{
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    transform: translateY(-50%);
+    width: 90%;
+  }
+  #box-title h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+  }
+  #box-link{
+    padding: 5px;
+  }
+  .mail-form{
+    padding: 15px;
+  }
+  .mail-form p{
+    /* color: #000; */
+  }
+  .index-section{
+    margin: 10px auto;
+  }
+  .index-section h1{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .gray,.syssup{
+    height: 200px!important;
+  }
+  .explain{
+    width: 70%;
+  }
+  .wssm{
+    height: 300px!important;
+  }
+}
+@media screen and (max-width:300px){
+  #header-box{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    transform: translateY(-50%);
   }
 }
