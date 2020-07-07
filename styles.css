@@ -86,6 +86,9 @@ body ul{
   display: block;
   color: #fff;
 }
+#header-img{
+  display: none;
+}
 #header-box{
   position: absolute;
   top: 50%;
